@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:aquamarine;
+  }
+
+  .container {
+    width: 90%;
+    max-width: 600px;
+    margin: 130px auto;
+    background-color: wheat;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: blueviolet;
+  }
+
+  .task-input, .filters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .task-input input, .filters input, select {
+    flex: 1;
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+
+  .task-input button {
+    padding: 10px 20px;
+    background-color:black;
+    color: whitesmoke;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+    .task-input button:hover {
+    background-color:blue;
+  }
+  ol {
+    list-style-type:none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: whitesmoke;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .category {
+    font-style: Arial, sans-serif ;
+    color:grey;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+marquee{
+  font-style:Arial, sans-serif ;
+}
+
